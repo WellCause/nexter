@@ -85,11 +85,13 @@
         height: 100%;
         object-fit: cover;
         display: block;
-        transition: transform .5s;
+        transition: all .5s;
         backface-visibility: hidden;
+        filter: brightness(90%);
 
         &:hover {
             transform: scale3d(1.05, 1.05, 1);
+            filter: brightness(100%);
         }
     }
 }
