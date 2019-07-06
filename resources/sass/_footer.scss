@@ -2,6 +2,10 @@
     background-color: $color-secondary;
     grid-column: full-start / full-end;
     padding: 8rem;
+
+    @media only screen and (max-width: $bp-medium) {
+        padding-top: 3rem;
+    }
 }
 
 .nav {
@@ -37,4 +41,9 @@
     margin: 6rem auto 0 auto;
     text-align: center;
     width: 70%;
+
+    @media only screen and (max-width: $bp-medium) {
+        width: 100%;
+        margin: 3rem auto 0 auto;
+    }
 }
